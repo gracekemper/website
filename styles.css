@@ -1,12 +1,29 @@
+/* index.html */
+
 body {
-  background-color: #D8E2DC
+   background-image: url("https://images.template.net/97313/free-dark-green-background-g80px.jpg");
  
 }
 
+h1 {
+  font-family: Gill-Sans, sans-serif;
+}
+
+p {
+  font-family: Gill-Sans, sans-serif;
+}
+
+img.top {
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #BC4B51;
+}
+
 ul {
-  position: fixed;
+  position: sticky;
   top: 0;
-  width:100%;
+  width: 100%;
   margin: 0 auto;
   z-index: 1;
 }
@@ -16,69 +33,59 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #FFE5D9;
+  background-color: #BC4B51;
 }
 
 li {
   float: left;
-  border-right:1px solid #FFCAD4;
-}
-
-li:last-child {
-  border-right: 1px solid #FFCAD4;
 }
 
 li a {
   display: block;
-  color: #F4ACB7;
+  color: #383838;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #9D8189;
+  background-color: #5B8E7D;
 }
 
 .active {
-  background-color: #9D8189;
+  background-color: #5B8E7D;
 }
 
 div.stars {
-  display:inline-block;
+  display: inline-block;
 }
 
 h1.abt {
-  text-align:center;
+  text-align: center;
   margin-top: 50px;
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
 }
 
-img.lstars {
-  width: 200px;
-  position: absolute;
+img.head {
+  width: 100%;
+  height: 100px;
+  object-fit: fill;
 }
-
-img.rstars {
-  width: 200px;
-  top: 50px;
-  right: 0px;
-  position: absolute;
-}
-
 span.abt {
   padding: 10px;
   margin: 10px;
-  border: 10px solid #FFCAD4;
-  color: #FFCAD4;
-  background-color: #FFE5D9;
+  border: 10px solid #355E3B;
+  color: #383838;
+  background-color: #5B8E7D;
   display: inline-block;
 }
 
 p.abt {
-  text-align:center;
+  text-align: center;
+  position: relative;
+  margin-top: 0px;
 }
 
 .center {
@@ -89,6 +96,58 @@ justify-content: space-around;
 }
 
 a.nehs {
-  margin: 0 auto;
-  text-align:center;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border: 10px solid #F4A259;
+  color: #383838;
+  background-color: #F4E285;
+  display: inline-block;
+  text-decoration: none;
 }
+
+  a:link.nehs, a:visited.nehs {
+  background-color: #F4E285;
+  color: #383838;
+}
+
+a:hover.nehs, a:active.nehs {
+  background-color: #F4A259;
+  color: #383838;
+}
+
+div.bottom {
+  text-align: center;
+  border: 5px solid #F4A259;
+  color: #383838;
+  background-color: #5B8E7D;
+}
+
+hr{
+  height: 5px;
+  background-color: #F4E285;
+  border-style: solid;
+  border-color: #355E3B;
+}
+
+a.bottom {
+  width: 100%;
+  max-width: 92%
+}
+
+  a:link.bottom, a:visited.bottom {
+  background-color: #F4E285;
+  color: #383838;
+  border: 10px #F4A259;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover.bottom, a:active.bottom {
+  background-color: #F4A259;
+  color: #383838;
+}
+
+/* contact.html */
