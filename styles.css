@@ -2,7 +2,7 @@
 
 body {
    background-image: url("https://images.template.net/97313/free-dark-green-background-g80px.jpg");
- 
+   margin: 0px;
 }
 
 h1 {
@@ -56,10 +56,6 @@ li a:hover:not(.active) {
   background-color: #5B8E7D;
 }
 
-div.stars {
-  display: inline-block;
-}
-
 h1.abt {
   text-align: center;
   margin-top: 50px;
@@ -89,6 +85,10 @@ p.abt {
   text-align: center;
   position: relative;
   margin-top: 0px;
+}
+
+img.abt {
+  width:20px;
 }
 
 .center {
@@ -157,4 +157,52 @@ a:hover.bottom, a:active.bottom {
   color: #383838;
 }
 
-/* contact.html */
+/* other */
+
+.sm-link {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+object-fit: fill;
+margin-left: auto;
+margin-right: auto;
+
+text-decoration: none;
+color: black;
+vertical-align: middle;
+
+padding: 6px;
+width: 20%;
+
+border: 1px solid black;
+border-radius: 4px;
+
+background-color: rgba(24, 24, 245, 0.1);
+
+font-family: sans-serif;
+}
+
+.sm-logo {
+max-height: 16px;
+margin-right: 6px;
+}
+
+span.link {
+  padding: 10px;
+  margin:10px;
+  margin-left: 105px;
+  border: 5px solid #BC4B51;
+  color: #383838;
+  background-color: #5B8E7D;
+  display: inline-block;
+}
+
+p.para {
+  padding: 10px;
+  margin-left: 335px;
+  border: 10px solid #355E3B;
+  color: #383838;
+  background-color: #5B8E7D;
+  display: inline-block;
+}
+
