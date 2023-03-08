@@ -13,6 +13,12 @@ p {
   font-family: Gill-Sans, sans-serif;
 }
 
+img {
+  border-style: groove;
+  border-color: #BC4B51;
+  border-width: 2px;
+}
+
 img.top {
   width: 100%;
   border-style: solid;
@@ -206,3 +212,14 @@ p.para {
   display: inline-block;
 }
 
+/* art */
+
+p.art {
+  margin-left: 10px;
+  padding-top:3px;
+  padding-bottom:3px;
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: #5B8E7D;
+  display: inline-block;
+}
