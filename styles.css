@@ -64,6 +64,7 @@ li a:hover:not(.active) {
 
 h1.abt {
   text-align: center;
+  
   margin-top: 50px;
   margin-left: 0px;
   margin-right: 0px;
@@ -73,23 +74,28 @@ h1.abt {
 img.head {
   width: 80%;
   height: 120px;
+  
   object-fit: fill;
   display: block;
+  
   margin-left: auto;
   margin-right: auto;
 }
 span.abt {
   padding: 10px;
   margin: 10px;
+  
   border: 10px solid #355E3B;
   color: #383838;
   background-color: #5B8E7D;
+  
   display: inline-block;
 }
 
 p.abt {
   text-align: center;
   position: relative;
+  
   margin-top: 0px;
 }
 
@@ -99,19 +105,23 @@ img.abt {
 
 .center {
 width: 100%;
+
 display: flex;
 align-items: center;
 justify-content: space-around;
 }
 
 a.nehs {
+  display: inline-block;
   text-align: center;
+  
   padding: 10px;
   margin: 10px;
+  
   border: 10px solid #F4A259;
   color: #383838;
   background-color: #F4E285;
-  display: inline-block;
+  
   text-decoration: none;
 }
 
@@ -134,6 +144,7 @@ div.bottom {
 
 hr{
   height: 5px;
+  
   background-color: #F4E285;
   border-style: solid;
   border-color: #355E3B;
@@ -149,13 +160,15 @@ a.bottom {
 }
 
   a:link.bottom, a:visited.bottom {
+  text-align: center;
+  display: inline-block;
+  
+  padding: 10px 20px;
+  
   background-color: #F4E285;
   color: #383838;
   border: 10px #F4A259;
-  padding: 10px 20px;
-  text-align: center;
   text-decoration: none;
-  display: inline-block;
 }
 
 a:hover.bottom, a:active.bottom {
@@ -197,29 +210,60 @@ span.link {
   padding: 10px;
   margin:10px;
   margin-left: 105px;
+  
   border: 5px solid #BC4B51;
   color: #383838;
   background-color: #5B8E7D;
+  
   display: inline-block;
 }
 
 p.para {
   padding: 10px;
   margin-left: 335px;
-  border: 10px solid #355E3B;
+  
+  border: 10px solid #BC4B51;
   color: #383838;
   background-color: #5B8E7D;
+  
   display: inline-block;
 }
 
 /* art */
 
-p.art {
+.container {
+  position: relative;
+  text-align: center;
+  color: 383838;
+}
+
+div.art {
+  vertical-align: middle;
+  position: relative;
+  display: inline-block;
+  
+  margin-top: 0px;
   margin-left: 10px;
   padding-top:3px;
   padding-bottom:3px;
   padding-right: 5px;
   padding-left: 5px;
+  
   background-color: #5B8E7D;
-  display: inline-block;
+}
+
+img.art {
+  max-width: 30%;
+  height: 400px;
+  display: block;
+  
+  margin-left: auto;
+  margin-right: auto;
+  
+  margin-top: 30px;
+  margin-bottom: 5px;
+  padding-left: 200px;
+  padding-right: 200px;
+  
+  background-color: #5B8E7D;
 }
