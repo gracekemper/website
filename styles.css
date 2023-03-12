@@ -120,12 +120,17 @@ h1.abt {
 }
 
 img.head {
-  width: 80%;
-  height: 120px;
+  width: 70%;
+  height: auto;
   
+  position: relative;
   object-fit: fill;
   display: block;
+  border-style: none;
   
+  padding: 0%;
+  margin-top: 0px;
+  margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
