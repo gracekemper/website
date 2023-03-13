@@ -117,22 +117,17 @@ h1.abt {
   margin-right: 0px;
   margin-bottom: 0px;
 }
-
 img.head {
-  width: 70%;
-  height: auto;
+  width: 60%;
   
-  position: relative;
   object-fit: fill;
   display: block;
   border-style: none;
   
-  padding: 0%;
-  margin-top: 0px;
-  margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
+
 span.abt {
   padding: 10px;
   margin: 10px;
