@@ -1,0 +1,99 @@
+  @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body {
+  background-color: #c5395a;
+}
+
+
+
+div.body {
+  border-radius: 25px;
+  background: #8bd5ee;
+  padding: 20px;
+  
+  border-style: solid;
+  border-width: 10px;
+  border-color: #085a73;
+}
+
+div.top {
+  border-radius: 25px;
+  background: #5abde6;
+}
+
+div.porygon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Silkscreen', cursive;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Silkscreen', cursive;
+  
+  margin: 2px;
+  padding: 2px;
+}
+
+img {
+ width: 20%;
+  
+ 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.center {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  
+  border-radius: 25px;
+  background: #5abde6;
+}
+
+iframe {
+  width: 40%;
+  border-radius: 25px;
+  background: #ff6262;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  padding: 20px;
+  height: 300px;
+}
+
+div.sum{
+  width: 40%;
+  padding: 20px;
+  height: 300px;
+  float: right;
+  background-color: #ff6262;
+  border-radius: 25px;
+}
+
+p {
+  display: inline-block;
+  text-align: center;
+  font-family: 'Silkscreen', cursive;
+  
+  margin: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  
+  
+}
+
+summary {
+  font-family: 'Silkscreen', cursive;
+  font-size: 20px;
+  
+  margin: 5px;
+  padding: 5px;
+}
