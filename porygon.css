@@ -76,6 +76,7 @@ div.sum{
   float: right;
   background-color: #ff6262;
   border-radius: 25px;
+  overflow-y:auto;
 }
 
 p {
