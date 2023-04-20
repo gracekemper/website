@@ -79,6 +79,9 @@ div.sum{
   overflow-y:auto;
 }
 
+details {
+  height:fit-content;
+
 p {
   display: inline-block;
   text-align: center;
