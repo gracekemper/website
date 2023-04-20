@@ -76,11 +76,12 @@ div.sum{
   float: right;
   background-color: #ff6262;
   border-radius: 25px;
-  overflow-y:auto;
+  overflow-y: auto;
+  height: fit-content;
 }
 
 details {
-  height:fit-content;
+  height: fit-content;
 
 p {
   display: inline-block;
